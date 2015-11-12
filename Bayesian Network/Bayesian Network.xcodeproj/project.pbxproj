@@ -1,0 +1,512 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C299D51A1BDDFFC900551491 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C299D5191BDDFFC900551491 /* AppDelegate.swift */; };
+		C299D51C1BDDFFC900551491 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C299D51B1BDDFFC900551491 /* ViewController.swift */; };
+		C299D51F1BDDFFC900551491 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C299D51D1BDDFFC900551491 /* Main.storyboard */; };
+		C299D5211BDDFFC900551491 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C299D5201BDDFFC900551491 /* Assets.xcassets */; };
+		C299D5241BDDFFC900551491 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C299D5221BDDFFC900551491 /* LaunchScreen.storyboard */; };
+		C299D52F1BDDFFC900551491 /* Bayesian_NetworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C299D52E1BDDFFC900551491 /* Bayesian_NetworkTests.swift */; };
+		C299D53A1BDDFFC900551491 /* Bayesian_NetworkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C299D5391BDDFFC900551491 /* Bayesian_NetworkUITests.swift */; };
+		C299D5481BDDFFF700551491 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = C299D5471BDDFFF700551491 /* Model.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C299D52B1BDDFFC900551491 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C299D50E1BDDFFC900551491 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C299D5151BDDFFC900551491;
+			remoteInfo = "Bayesian Network";
+		};
+		C299D5361BDDFFC900551491 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C299D50E1BDDFFC900551491 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C299D5151BDDFFC900551491;
+			remoteInfo = "Bayesian Network";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C299D5161BDDFFC900551491 /* Bayesian Network.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bayesian Network.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C299D5191BDDFFC900551491 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C299D51B1BDDFFC900551491 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C299D51E1BDDFFC900551491 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C299D5201BDDFFC900551491 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C299D5231BDDFFC900551491 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C299D5251BDDFFC900551491 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C299D52A1BDDFFC900551491 /* Bayesian NetworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bayesian NetworkTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C299D52E1BDDFFC900551491 /* Bayesian_NetworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bayesian_NetworkTests.swift; sourceTree = "<group>"; };
+		C299D5301BDDFFC900551491 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C299D5351BDDFFC900551491 /* Bayesian NetworkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bayesian NetworkUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C299D5391BDDFFC900551491 /* Bayesian_NetworkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bayesian_NetworkUITests.swift; sourceTree = "<group>"; };
+		C299D53B1BDDFFC900551491 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C299D5471BDDFFF700551491 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C299D5131BDDFFC900551491 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C299D5271BDDFFC900551491 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C299D5321BDDFFC900551491 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C299D50D1BDDFFC900551491 = {
+			isa = PBXGroup;
+			children = (
+				C299D5181BDDFFC900551491 /* Bayesian Network */,
+				C299D52D1BDDFFC900551491 /* Bayesian NetworkTests */,
+				C299D5381BDDFFC900551491 /* Bayesian NetworkUITests */,
+				C299D5171BDDFFC900551491 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C299D5171BDDFFC900551491 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C299D5161BDDFFC900551491 /* Bayesian Network.app */,
+				C299D52A1BDDFFC900551491 /* Bayesian NetworkTests.xctest */,
+				C299D5351BDDFFC900551491 /* Bayesian NetworkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C299D5181BDDFFC900551491 /* Bayesian Network */ = {
+			isa = PBXGroup;
+			children = (
+				C299D5191BDDFFC900551491 /* AppDelegate.swift */,
+				C299D51B1BDDFFC900551491 /* ViewController.swift */,
+				C299D5471BDDFFF700551491 /* Model.swift */,
+				C299D51D1BDDFFC900551491 /* Main.storyboard */,
+				C299D5201BDDFFC900551491 /* Assets.xcassets */,
+				C299D5221BDDFFC900551491 /* LaunchScreen.storyboard */,
+				C299D5251BDDFFC900551491 /* Info.plist */,
+			);
+			path = "Bayesian Network";
+			sourceTree = "<group>";
+		};
+		C299D52D1BDDFFC900551491 /* Bayesian NetworkTests */ = {
+			isa = PBXGroup;
+			children = (
+				C299D52E1BDDFFC900551491 /* Bayesian_NetworkTests.swift */,
+				C299D5301BDDFFC900551491 /* Info.plist */,
+			);
+			path = "Bayesian NetworkTests";
+			sourceTree = "<group>";
+		};
+		C299D5381BDDFFC900551491 /* Bayesian NetworkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C299D5391BDDFFC900551491 /* Bayesian_NetworkUITests.swift */,
+				C299D53B1BDDFFC900551491 /* Info.plist */,
+			);
+			path = "Bayesian NetworkUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C299D5151BDDFFC900551491 /* Bayesian Network */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C299D53E1BDDFFC900551491 /* Build configuration list for PBXNativeTarget "Bayesian Network" */;
+			buildPhases = (
+				C299D5121BDDFFC900551491 /* Sources */,
+				C299D5131BDDFFC900551491 /* Frameworks */,
+				C299D5141BDDFFC900551491 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Bayesian Network";
+			productName = "Bayesian Network";
+			productReference = C299D5161BDDFFC900551491 /* Bayesian Network.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C299D5291BDDFFC900551491 /* Bayesian NetworkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C299D5411BDDFFC900551491 /* Build configuration list for PBXNativeTarget "Bayesian NetworkTests" */;
+			buildPhases = (
+				C299D5261BDDFFC900551491 /* Sources */,
+				C299D5271BDDFFC900551491 /* Frameworks */,
+				C299D5281BDDFFC900551491 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C299D52C1BDDFFC900551491 /* PBXTargetDependency */,
+			);
+			name = "Bayesian NetworkTests";
+			productName = "Bayesian NetworkTests";
+			productReference = C299D52A1BDDFFC900551491 /* Bayesian NetworkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C299D5341BDDFFC900551491 /* Bayesian NetworkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C299D5441BDDFFC900551491 /* Build configuration list for PBXNativeTarget "Bayesian NetworkUITests" */;
+			buildPhases = (
+				C299D5311BDDFFC900551491 /* Sources */,
+				C299D5321BDDFFC900551491 /* Frameworks */,
+				C299D5331BDDFFC900551491 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C299D5371BDDFFC900551491 /* PBXTargetDependency */,
+			);
+			name = "Bayesian NetworkUITests";
+			productName = "Bayesian NetworkUITests";
+			productReference = C299D5351BDDFFC900551491 /* Bayesian NetworkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C299D50E1BDDFFC900551491 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "MonsterHulk Inc.";
+				TargetAttributes = {
+					C299D5151BDDFFC900551491 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 26LXBAMDFV;
+					};
+					C299D5291BDDFFC900551491 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 26LXBAMDFV;
+						TestTargetID = C299D5151BDDFFC900551491;
+					};
+					C299D5341BDDFFC900551491 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 26LXBAMDFV;
+						TestTargetID = C299D5151BDDFFC900551491;
+					};
+				};
+			};
+			buildConfigurationList = C299D5111BDDFFC900551491 /* Build configuration list for PBXProject "Bayesian Network" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C299D50D1BDDFFC900551491;
+			productRefGroup = C299D5171BDDFFC900551491 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C299D5151BDDFFC900551491 /* Bayesian Network */,
+				C299D5291BDDFFC900551491 /* Bayesian NetworkTests */,
+				C299D5341BDDFFC900551491 /* Bayesian NetworkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C299D5141BDDFFC900551491 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C299D5241BDDFFC900551491 /* LaunchScreen.storyboard in Resources */,
+				C299D5211BDDFFC900551491 /* Assets.xcassets in Resources */,
+				C299D51F1BDDFFC900551491 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C299D5281BDDFFC900551491 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C299D5331BDDFFC900551491 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C299D5121BDDFFC900551491 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C299D5481BDDFFF700551491 /* Model.swift in Sources */,
+				C299D51C1BDDFFC900551491 /* ViewController.swift in Sources */,
+				C299D51A1BDDFFC900551491 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C299D5261BDDFFC900551491 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C299D52F1BDDFFC900551491 /* Bayesian_NetworkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C299D5311BDDFFC900551491 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C299D53A1BDDFFC900551491 /* Bayesian_NetworkUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C299D52C1BDDFFC900551491 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C299D5151BDDFFC900551491 /* Bayesian Network */;
+			targetProxy = C299D52B1BDDFFC900551491 /* PBXContainerItemProxy */;
+		};
+		C299D5371BDDFFC900551491 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C299D5151BDDFFC900551491 /* Bayesian Network */;
+			targetProxy = C299D5361BDDFFC900551491 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C299D51D1BDDFFC900551491 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C299D51E1BDDFFC900551491 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C299D5221BDDFFC900551491 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C299D5231BDDFFC900551491 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C299D53C1BDDFFC900551491 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C299D53D1BDDFFC900551491 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C299D53F1BDDFFC900551491 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Bayesian Network/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Uwaterloo.akamonsterhulk.Bayesian-Network";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C299D5401BDDFFC900551491 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Bayesian Network/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Uwaterloo.akamonsterhulk.Bayesian-Network";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C299D5421BDDFFC900551491 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Bayesian NetworkTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Uwaterloo.akamonsterhulk.Bayesian-NetworkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bayesian Network.app/Bayesian Network";
+			};
+			name = Debug;
+		};
+		C299D5431BDDFFC900551491 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Bayesian NetworkTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Uwaterloo.akamonsterhulk.Bayesian-NetworkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bayesian Network.app/Bayesian Network";
+			};
+			name = Release;
+		};
+		C299D5451BDDFFC900551491 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Bayesian NetworkUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Uwaterloo.akamonsterhulk.Bayesian-NetworkUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Bayesian Network";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		C299D5461BDDFFC900551491 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Bayesian NetworkUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Uwaterloo.akamonsterhulk.Bayesian-NetworkUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Bayesian Network";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C299D5111BDDFFC900551491 /* Build configuration list for PBXProject "Bayesian Network" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C299D53C1BDDFFC900551491 /* Debug */,
+				C299D53D1BDDFFC900551491 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C299D53E1BDDFFC900551491 /* Build configuration list for PBXNativeTarget "Bayesian Network" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C299D53F1BDDFFC900551491 /* Debug */,
+				C299D5401BDDFFC900551491 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C299D5411BDDFFC900551491 /* Build configuration list for PBXNativeTarget "Bayesian NetworkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C299D5421BDDFFC900551491 /* Debug */,
+				C299D5431BDDFFC900551491 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C299D5441BDDFFC900551491 /* Build configuration list for PBXNativeTarget "Bayesian NetworkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C299D5451BDDFFC900551491 /* Debug */,
+				C299D5461BDDFFC900551491 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C299D50E1BDDFFC900551491 /* Project object */;
+}
